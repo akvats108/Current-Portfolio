@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="home-container">
+        <div class="header">
+           
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">skills</a></li>
+                    <li><a href="#">projects</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icons">
+           <a href="https://www.linkedin.com/in/anand-vats-5b2b7a22a/">  <i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://github.com/akvats108"> <i class="fa-brands fa-github"></i> </a>
+           <a href=""><i class="fa-brands fa-upwork"></i> </a>
+           <a href="https://www.instagram.com/anand__vats_/?next=%2F"> <i class="fa-brands fa-instagram"></i> </a>
+           <a href="https://www.upwork.com/freelancers/~01a4afae17dda938af"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="image">
+            <img src="ak.png" alt="">
+        </div>
+        <div class="name-sec">
+            <p>Hi i'm</p>
+            <h2>Anand</h2>
+            <p> Frontend web developer</p>
+        </div>
+        <div class="button-sec">
+            <button class="btn">Download CV</button>
+            <button onclick="scrollToContact()" class="btn">Let's Talk</button>
+        </div>
+    </div>
+    <section>
+        <div class="about-sec">
+            <div class="about-header">
+                <p>Get to know</p>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-image">
+                <img id="img" src="av.png" alt="">
+                <div class="about-cards">
+                    <div class="card">
+                    <img src="student-with-graduation-cap.png" alt="">
+                       <h3>Student</h3>
+                       <p>Ranchi</p>
+                       <p style="margin-top: 0;">University</p>
+                    </div>
+                    <div class="card"> <img src="medal (1).png" alt="">
+                        <h3>Course</h3>
+                        <p>Bsc.IT</p></div>
+                    <div class="card"> <img src="web-programming.png" alt=""> 
+                        <h3>Projects</h3>
+                        <p> 1 Completed</p></div>
+                </div>
+            </div>
+            <div class="about-script">
+                <p> I am looking for an Entry-level position in the field of Mern stack Development or Software Development. Currently pursuing Bsc.IT from Ranchi University, And I have a good knowledge of Java, Data Structures and Algorithms, HTML, CSS and JavaScript. Looking for an Internship opportunity or a Full-time opportunity as a Software Developer to follow my passion and that is Solving Problems.</p>
+            </div>
+            <div class="button-sec">
+               <button class="btn btnn" id="talk">Let's Talk</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="skills-sec">
+            <div class="about-header skill-header">
+                <p>What skills i've</p>
+                <h2>Skills</h2>
+            </div>
+            <div class="skill-container">
+                <div class="skill-box"> 
+                      
+                    <div class="element">
+                         <h4><img src="verifyyy.png" alt="">java</h4>
+                    <small>intermediate</small></div>
+                    <div class="element"><h4><img src="verifyyy.png" alt="">data structure</h4>  <small>intermediate</small></div>
+                    <div class="element"> <h4><img src="verifyyy.png" alt="">Paython</h4> <small>intermediate</small></div>
+                    <div class="element"> <h4><img src="verifyyy.png" alt="">c++</h4> <small>intermediate</small></div>
+                </div>
+                <div class="skill-box">
+                    <div class="element"><h4><img src="verifyyy.png" alt="">HTML</h4>
+                        <small>intermediate</small></div>
+                        <div class="element"><h4><img src="verifyyy.png" alt="">CSS</h4>  <small>intermediate</small></div>
+                        <div class="element"> <h4><img src="verifyyy.png" alt="">JavaScript</h4> <small>intermediate</small></div>
+                        
+                </div>
+        </div>
+    </section>
+    <section>
+        <div class="project-sec">
+            <div class="about-header project-header">
+                <p>My recent work</p>
+                <h2>Projects</h2>
+            </div>
+            <div  class="skill-container project-container">
+                <div class="skill-box project-box"> 
+                 <img src="todo.png" alt="">
+                 <h2>TodoApp - TodoList Web-App</h2>
+                  <div class="project-button">
+                    <a href="https://github.com/akvats108/Todo-List-App">
+                    <button  class="project-btn">Github</button> </a>
+                    <a href="https://akvats108.github.io/Todo-List-App/"> 
+                 <button id="p-btn" class="project-btn"  >Live Demo</button></a>
+                  </div>
+                </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="tools-sec">
+            <h1>Tools</h1>
+            <div class="calculator-box">
+                <div class="calculator">
+                    <div class="display" id="display">0</div>
+                    <div class="buttons">
+                        <button class="double">0</button>
+                        <button>.</button>
+                        <button class="clear">C</button>
+                        <button class="operator">+</button>
+            
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button class="operator">-</button>
+            
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button class="operator">*</button>
+                      
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <button class="operator">/</button>
+            
+                    
+            
+                         
+                        <button class="equal">=</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="about-header contact-header">
+            <p>Get in Touuch</p><br>
+            <h1>Contact Me</h1>  </div>
+            <div class="contact-sec">
+                <div class="left-side">
+                    <div class="mail"><h5>Email</h5>
+                    <p>akvats108@gmail.com</p></div>
+                    <div class="mail"><h5>Whats'app</h5>
+                      <p>+916207380453</p>
+                    </div>
+                     
+                </div>
+                <div class="right-side">
+                    <form>
+                        <label for="name"> </label>
+                        <input placeholder="Your Full Name" type="text" id="name" name="name"><br><br>
+                      
+                        <label for="email"></label>
+                        <input type="email" placeholder="Your Email" id="email" name="email"><br><br>
+                      
+                        <label for="message"> </label>
+                        <textarea placeholder="Write Message" id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                      
+                         
+                      </form>
+                      
+                      <button class="project-btn send-message">Send message</button>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+     <footer class="footer-sec">
+        <h1>ANAND</h1>
+        <p>Thank you for visiting my portfolio</p> 
+        <p>&copy;Anand Vats.All rights reserved.</p>
+     </footer>
+       <script src="app.js"></script>
+</body>
+</html>

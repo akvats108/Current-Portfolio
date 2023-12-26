@@ -1,0 +1,767 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0%;
+  scroll-behavior: smooth;
+}
+body{
+background-color:  #1F1F38;
+box-sizing: border-box;
+overflow-x: hidden;
+}
+nav{
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+}
+nav li{
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav a{ 
+  color: white;
+  text-transform:uppercase;
+  text-decoration: none;
+  margin: 10px 14px;
+}
+.home-container{
+  height: 100vh;
+  width: 100%;
+}
+.image{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 70px;
+   
+}
+.image img{
+  height: 210px;
+}
+.name-sec{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  line-height: 0px;
+  margin-top: 30px;
+}
+.name-sec h2{
+  color: white;
+  font-size: 30px;
+}
+.name-sec p{
+  color: rgb(154, 151, 151);
+
+}
+.button-sec{
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+align-items: center;
+}
+.button-sec .btn{
+  height: 55px;
+  width: 130px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #21A1FC;
+   margin-left: 30px;
+   font-size: 10px;
+}
+.btn:hover{
+  background-color: #21A1FC ;
+   cursor: pointer;
+  transition: 0.3s;
+}
+.about-sec{
+  height: 100vh;
+  width: 100%;
+
+    
+}
+.about-header{
+   display: flex;
+   flex-direction: column;
+   line-height: 0;
+   width: 100%;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.about-header h2{
+  color: white;
+}
+.about-header p{
+  color: rgb(154, 151, 151);
+}
+.about-image{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+ justify-content: space-between;
+}
+.about-image #img{
+  height: 250px;
+  margin-left: 170px;
+  border-radius: 15px;
+}
+.about-image img:hover{
+  border: 2px solid  #21A1FC;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.about-cards{
+  display: flex;
+   margin-right: 160px;
+}
+.card{
+  display: flex;
+  height: 200px;
+  width: 160px;
+  background-color:  #2C2C6C;
+  margin-left: 40px;
+  justify-content: center;
+  border-radius: 15px;
+  flex-direction: column;
+}
+.card:hover{
+  background-color: transparent;
+  border: 1px  solid #21A1FC;
+  cursor: pointer;
+   transition:  0.3s;
+}
+.card img{
+height: 25px;
+margin-left: 0%;
+ 
+align-self: center;
+
+}
+.card h3{
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+.card p{
+  text-align: center;
+  color: rgb(154, 151, 151);
+}
+.about-script{
+  width: 40vw;
+  float: right;
+   margin-right: 110px;
+}
+.about-script p{
+  line-height: 32px;
+  color: rgb(164, 162, 162);
+  font-size: 20px;
+}
+.button-sec .btnn{
+  margin-left: 170px;
+  margin-top: 20px;
+}
+.skills-sec{
+  height: 100vh;
+  width: 100%;
+}
+.skill-header{
+  margin-top: 100px;
+}
+.skill-container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.skill-box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 32vh;
+  width: 30%;
+  background-color:#303099;
+  border-radius: 2rem;
+   margin: 15px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   
+}
+.skill-box:hover{
+  border: 2px solid  #21A0FD;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.element{
+  margin: 40px;
+   margin-top: 20px;
+   line-height: 0;
+
+}
+.element h4{
+  color: white;
+  text-transform: capitalize;
+}
+.element small{
+color: rgb(121, 119, 119);
+text-transform: capitalize;
+}
+.element img{
+  height: 17px;
+  margin-right: 9px;
+
+}
+.project-sec{
+  height: 100vh;
+  width: 100%;
+}
+.project-sec{
+  margin-top: 100px;
+  height: 100vh;
+  width: 100%;
+
+}
+.project-box{
+  height: 430px;
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.project-box:hover{
+  border: 2px solid  #21A0FD;
+  background-color: transparent;
+  transition: 0.3s;
+    
+  cursor: pointer;
+}
+.project-box img{
+  height: 230px;
+  border-radius: 20px;
+  margin-top: -10px;
+}
+.project-box h2{
+  color: white;
+  margin-top: 20px;
+  margin-right: 110px;
+}
+.project-button{
+margin-right: 110px;
+display: flex;
+
+ 
+}
+.project-button button{
+ font-size: 15px;
+}
+.project-btn{
+ margin-top: 40px;
+ height: 50px;
+ width: 130px;
+ margin-right: 10px;
+ border-radius: 8px;
+ border: 2px solid #21A0FD;
+ color: white;
+ background: transparent;
+ cursor: pointer;
+ 
+}
+.project-btn:hover {
+background-color: #21A0FD;
+transition: 0.3s;
+color: black;
+
+}
+#p-btn{
+background-color:#21A0FD ;
+}
+#p-btn:hover{
+background-color: #21A0FD;
+}
+.contact-sec{
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.contact-header,h1{
+line-height: 0;
+color: white;
+}
+.left-side{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top:  -150px;
+margin-left: 200px;
+text-align: center;
+}
+.left-side .mail{
+height: 20vh;
+width: 220px;
+background-color: #303099;
+margin: 10px;
+border-radius: 8px;
+}
+.right-side{
+display: flex;
+flex-direction: column;
+margin-left: 250px;
+margin-top:  100px;
+
+}
+#name{
+height: 40px;
+width: 500px;
+border-radius: 8px;
+border: 2px solid #21A0FD ;
+background-color: transparent;
+padding: 8px;
+color: white;
+
+}
+#email{
+height:40px ; 
+width: 500px;
+border-radius: 8px;
+border: 2px solid #21A0FD ;
+background-color: transparent;
+padding: 8px;
+color: white;
+}
+#message{
+height: 200px;
+width: 500px;
+border-radius: 8px;
+border: 2px solid #21A0FD ;
+background-color: transparent;
+padding: 8px;
+color: white;
+}
+.send-message{
+background-color: #21A0FD;
+}
+.mail h5{
+color: white;
+margin-top: 30px;
+line-height: 35px;
+font-weight: bold;
+font-size: 15px;
+}
+.mail p{
+color: rgb(182, 182, 183);
+}
+.mail{
+background-color: transparent;
+ 
+}
+.mail:hover{
+border: 2px solid  #21A0FD;
+background-color: transparent;
+transition: 0.3s;
+cursor: pointer;
+} 
+.footer-sec{
+height: 30vh;
+background-color: #21A0FD;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.footer-sec h1{
+color: black;
+}
+ .icons{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+ }
+ .icons i{
+  font-size: 20px;
+  color: white;
+  margin-left: 40px;
+  background-color:   #21A0FD;
+  border-radius: 100px;
+  padding: 10px;
+   
+ }
+ /* calculator sec here */
+ .tools-sec{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+ }
+
+ 
+ .calculator {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+   
+}
+
+.display {
+  padding: 10px;
+  background-color: #f5f5f5;
+  text-align: right;
+  font-size: 24px;
+  height: 60px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #e0e0e0;
+}
+
+button.operator {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+button.double {
+  grid-column: span ;
+}
+
+button.equal {
+  grid-column: span 4;
+  background-color: #4caf50;
+  color: #fff;
+}
+button.clear{
+  background-color: rgb(202, 197, 197);
+}
+
+
+                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px){
+  
+  html,body{
+      scroll-behavior: smooth;
+      overflow-x: hidden !important;
+  }
+  .home-container{
+      width: 100%;
+      
+  }
+ .name-sec{
+  text-align: center;
+  justify-content: center;
+  
+ }
+ 
+   .button-sec{
+       
+      width: 100%;
+      display: flex;
+      justify-content: center;
+       margin-top: 25px;
+       flex-direction: column;
+       align-items: center;
+   }
+   .button-sec .btn{
+       margin-left: 0;
+       margin-top: 15px;
+       
+   }  
+   .about-image{
+      flex-direction: column;
+   } 
+   
+    .about-image #img{
+      height: 190px;
+      margin-left: 0%;
+      margin-top: -40px;
+    }
+    .about-cards{
+      margin-left: 150px; 
+      margin-top: 20px;
+    }
+    .card{
+      margin-left: 155px;
+      margin-top: 20px;
+      height: 100px;
+      width: 90px;
+      line-height: 0;
+      margin: 5px;
+      
+    }
+    .card p{
+       font-size: 13px;
+    }
+    .card h3{
+      font-size: 16px;
+    }
+    .about-sec{
+      padding: 7px;
+      height: 110vh;
+    }
+    .about-script{
+      width: 100vw;
+      float: right;
+       margin-right:0px;
+       margin-top: -30px;
+  }
+  .about-script p{
+      line-height: 25px;
+      color: rgb(164, 162, 162);
+      font-size: 14px;
+      padding: 30px;
+  }
+  .button-sec .btnn{
+      margin-left: 0;
+      margin-top: 0;
+  }
+     
+   
+  .skill-box{
+        width: 230px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+     
+    .skill-container{
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      flex-direction: column;
+    }
+    .element{
+      margin: 10px;
+       margin-top: 20px;
+       line-height: 0;
+  
+    }
+    
+    .element h4{
+      color: white;
+      text-transform: capitalize;
+      font-size: 10px;
+    }
+    .element small{
+  color: rgb(121, 119, 119);
+  text-transform: capitalize;
+  font-size: 10px;
+    }
+    .element img{
+      height: 11px;
+      margin-right: 9px;
+   
+    }
+    .project-sec{
+      height: 70vh;
+      margin-top: 0%;
+    }
+    .skills-sec{
+      height: 100vh;
+        
+    }
+    
+    .skill-header{
+      margin-top: 0%;
+    }
+    .project-box{
+      height: 330px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: -20px;
+  }
+  .project-box img{
+    height: 130px;
+    width: 200px;
+    border-radius: 20px;
+     margin-right: 79px;
+     
+}
+.project-box h2{
+    color: white;
+    margin-top: 20px;
+     margin-right: 79px;
+    font-size: 10px;
+}
+.project-button{
+   
+  display: flex;
+  height: 100px;
+  width: 200px;
+  font-size: 2px;
+   margin-left: 30px;
+}
+.project-btn{
+  margin-top: 40px;
+  height: 50px;
+  width: 90px;
+   
+}
+.project-button button{
+  font-size: 10px;
+ }
+.left-side .mail{
+  height: 80px;
+  width: 230px;
+  line-height: 0;
+   
+  text-align: center;
+}
+.left-side .mail h5{
+  margin-top: 12px;
+}
+.left-side{
+   margin-left: 0;
+   margin-top: -50px;
+}
+.left-side p{
+  font-size: 8px;
+  margin-top: -20px;
+}
+.right-side{
+   margin-top: 5px;
+  margin-left: 8px;
+}
+.contact-sec{
+  height: 80vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#name{
+  height: 20px;
+  width: 207px;
+  border-radius: 8px;
+  border: 1px solid #21A0FD ;
+  background-color: transparent;
+  padding: 8px;
+  color: white;
+  
+}
+#email{
+  height:20px ; 
+  width: 207px;
+  border-radius: 8px;
+  border: 1px solid #21A0FD ;
+  background-color: transparent;
+  padding: 8px;
+  color: white;
+}
+#message{
+  height: 80px;
+  width: 207px;
+  border-radius: 8px;
+  border: 1px solid #21A0FD ;
+  background-color: transparent;
+  padding: 8px;
+  color: white;
+}
+.send-message{
+  background-color: #21A0FD;
+  height: 30px;
+  width: 100px;
+  font-size: 8px;
+  margin-top: 0;
+   
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+}
+.footer-sec h1{
+  font-size: 20px;
+}
+.footer-sec p{
+  font-size: 12px;
+}
+.about-header{
+  justify-content: center;
+  align-items: center;
+}
+.button-sec .btn{
+  height: 50px;
+  width: 110px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #21A1FC;
+   background-color: #21A0FD;
+    
+}
+#talk{
+margin-top: -50px;
+margin-left: 80px;
+height: 40px;
+width: 100px;
+}
+nav {
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  visibility: hidden;
+}
+ .icons{
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+   width: 100vw;
+    align-items: center;
+ }
+.icons i{
+  font-size: 15px;
+  padding: 10px;
+  margin-left: 17px;
+
+}
+.calculator {
+  width: 215px;
+   
+}
+}
