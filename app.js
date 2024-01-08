@@ -1,8 +1,20 @@
+ 
+ 
 
-function scrollToContact() {
-  const contactSection = document.querySelector('.contact-sec');
-  contactSection.scrollIntoView({ behavior: 'smooth' });
-}
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('.main'),
+    smooth: true
+});
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+
+    },
+  });
 
 
 // calculator code here
