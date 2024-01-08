@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
+    <div class="main"> 
     <div class="home-container">
         <div class="header">
            
@@ -103,60 +106,41 @@
     </section>
     <section>
         <div class="project-sec">
-            <div class="about-header project-header">
-                <p>My recent work</p>
-                <h2>Projects</h2>
-            </div>
-            <div  class="skill-container project-container">
-                <div class="skill-box project-box"> 
-                 <img src="todo.png" alt="">
-                 <h2>TodoApp - TodoList Web-App</h2>
-                  <div class="project-button">
-                    <a href="https://github.com/akvats108/Todo-List-App">
-                    <button  class="project-btn">Github</button> </a>
-                    <a href="https://akvats108.github.io/Todo-List-App/"> 
-                 <button id="p-btn" class="project-btn"  >Live Demo</button></a>
+            <p>My recent works</p>
+            <h2>Pojects</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./todo.png" alt="">
+                     <h2>TodoApp - TodoList Web-App</h2>
+                     <button>Live Demo</button>
+                     <button>Github</button>
                   </div>
+                  <div class="swiper-slide"> <img src="./Screenshot (96).png" alt="">
+                    <h2>Sundown Studio Clone</h2>
+                    <button>Live Demo</button>
+                    <button>Github</button></div>
+                  <div class="swiper-slide"> <img src="/Screenshot (97).png " alt="">
+                    <h2>Spotify Clone</h2>
+                    <button>Live Demo</button>
+                    <button>Github</button>  </div>
+                  <div class="swiper-slide">
+                    <img src="./Screenshot (98).png" alt="">
+                    <h2>Calculator</h2>
+                    <button>Live Demo</button>
+                    <button>Github</button>
+                  </div>
+                  <div class="swiper-slide"> <h2>Something new comming soon</h2></div>
+                   
+                  
                 </div>
+                <div class="swiper-pagination"></div>
+              </div>
 
         </div>
     </section>
     <section>
-        <div class="tools-sec">
-            <h1>Tools</h1>
-            <div class="calculator-box">
-                <div class="calculator">
-                    <div class="display" id="display">0</div>
-                    <div class="buttons">
-                        <button class="double">0</button>
-                        <button>.</button>
-                        <button class="clear">C</button>
-                        <button class="operator">+</button>
-            
-                        <button>1</button>
-                        <button>2</button>
-                        <button>3</button>
-                        <button class="operator">-</button>
-            
-                        <button>4</button>
-                        <button>5</button>
-                        <button>6</button>
-                        <button class="operator">*</button>
-                      
-                        <button>7</button>
-                        <button>8</button>
-                        <button>9</button>
-                        <button class="operator">/</button>
-            
-                    
-            
-                         
-                        <button class="equal">=</button>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </section>
     <section>
         <div class="about-header contact-header">
@@ -190,12 +174,16 @@
                     </div>
                 </div>
             </div>
-    </section>
+    
      <footer class="footer-sec">
         <h1>ANAND</h1>
         <p>Thank you for visiting my portfolio</p> 
         <p>&copy;Anand Vats.All rights reserved.</p>
      </footer>
+    </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
        <script src="app.js"></script>
 </body>
 </html>
