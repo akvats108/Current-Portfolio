@@ -237,49 +237,39 @@ text-transform: capitalize;
   text-align: center;
 }
 .swiper {
-  width: 60vh;
-  height: 60%;
-   margin-top: 6vw;
-   align-items: center;
-   
-}
+  width: 30%;
+  height: 70%;
  
+}
+
 .swiper-slide {
-  padding: 0 3vw;
   text-align: center;
   font-size: 18px;
-  background:#303099;
+  background: #2C2C6C;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-   
+  
 }
- 
 
 .swiper-slide img {
   display: block;
-  width: 80%;
+  width: 75%;
   height: 60%;
   object-fit: cover;
-  border-radius: 10px;
-  margin-top: 2vw;
-}
-.swiper-slide h2{
-  color: rgb(251, 250, 250);
-  font-size: 1vw;
+  object-position: center;
+  margin-left: 3.4vw;
+   margin-top: 2vw;
+   border-radius: 10px;
 }
 .swiper-slide button{
-  height: 2.5vw;
-  width: 6vw;
-  background-color: #21A0FD;
-   color: rgb(0, 0, 0);
-   border-radius: 7px;
-   font-size: 0.9vw;
-   padding: 2px;
-   font-weight: 500;
-  margin: 0 1vw;
-  margin-top: 10px;
+  background-color: #21A1FC;
+  border-radius: 10px;
+  height: 3vw;
+  width: 7vw;
+  font-size: 0.9vw;
+  font-weight: 500;
 }
 
 /*  
@@ -824,55 +814,56 @@ nav {
   height: 55vh;
   width: 100%;
   padding: 8vw 0;
-  margin-top: 40vw;
+  margin-top: 55vw;
 }
 .project-sec p,h2{
   color: white;
   text-align: center;
 }
+ 
+
 .swiper {
-  width: 60%;
-  height: 30vh;
-    margin-top: 20vw;
-   
+  width: 70%;
+  height: 70%;
+ 
 }
-  
+
 .swiper-slide {
-  padding: 0 2vw;
   text-align: center;
   font-size: 18px;
-  background:#303099;
+  background: #2C2C6C;
   display: flex;
-   
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-   
-}
- 
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 60%;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-top: 2vw;
+  
 }
 .swiper-slide h2{
-  color: rgb(251, 250, 250);
-  font-size: 1vw;
+  font-size: 4vw;
 }
+.swiper-slide img {
+  display: block;
+  width: 33vh;
+  height: 60%;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 3.4vw;
+   margin-top: 2vw;
+   border-radius: 10px;
+}
+ 
 .swiper-slide button{
-  height: 2.5vw;
-  width: 6vw;
-  background-color: #21A0FD;
-   color: rgb(0, 0, 0);
-   border-radius: 7px;
-   font-size: 0.9vw;
-   padding: 2px;
-   font-weight: 500;
-  margin: 0 1vw;
-  margin-top: 10px;
+  background-color: #21A1FC;
+  border-radius: 10px;
+  height: 8vw;
+  width: 20vw;
+  font-size: 2vw;
+  font-weight: 500;
+  padding: 2px 0;
 }
+
+
+
+ 
+
 }
