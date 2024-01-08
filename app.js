@@ -7,8 +7,8 @@ const scroll = new LocomotiveScroll({
 });
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 25,
+    slidesPerView: 1,
+    spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
