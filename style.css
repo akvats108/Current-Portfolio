@@ -1,12 +1,17 @@
-*{
+ *{
   font-family: 'Montserrat', sans-serif;
   padding: 0%;
-  scroll-behavior: smooth;
+  
 }
 body{
 background-color:  #1F1F38;
 box-sizing: border-box;
 overflow-x: hidden;
+}
+.main{
+  /* background-color: black; */
+  position: relative;
+  z-index: 10;
 }
 nav{
   display: flex;
@@ -29,6 +34,7 @@ nav a{
 .home-container{
   height: 100vh;
   width: 100%;
+  position: relative;
 }
 .image{
   display: flex;
@@ -83,7 +89,7 @@ align-items: center;
   height: 100vh;
   width: 100%;
 
-    
+    position: relative;
 }
 .about-header{
    display: flex;
@@ -168,7 +174,7 @@ align-self: center;
   margin-top: 20px;
 }
 .skills-sec{
-  height: 100vh;
+  height: 60vh;
   width: 100%;
 }
 .skill-header{
@@ -222,15 +228,60 @@ text-transform: capitalize;
 
 }
 .project-sec{
-  height: 100vh;
+  height: 90vh;
   width: 100%;
+  padding: 7vw 0;
 }
-.project-sec{
-  margin-top: 100px;
-  height: 100vh;
-  width: 100%;
+.project-sec p,h2{
+  color: white;
+  text-align: center;
+}
+.swiper {
+  width: 70%;
+  height: 53%;
+   margin-top: 6vw;
+   
+}
+ 
+.swiper-slide {
+  padding: 0 2vw;
+  text-align: center;
+  font-size: 18px;
+  background:#303099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+   
+}
+ 
 
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 2vw;
 }
+.swiper-slide h2{
+  color: rgb(251, 250, 250);
+  font-size: 1vw;
+}
+.swiper-slide button{
+  height: 2.5vw;
+  width: 6vw;
+  background-color: #21A0FD;
+   color: rgb(0, 0, 0);
+   border-radius: 7px;
+   font-size: 0.9vw;
+   padding: 2px;
+   font-weight: 500;
+  margin: 0 1vw;
+  margin-top: 10px;
+}
+
+/*  
 .project-box{
   height: 430px;
   width: 550px;
@@ -286,7 +337,7 @@ background-color:#21A0FD ;
 }
 #p-btn:hover{
 background-color: #21A0FD;
-}
+} */
 .contact-sec{
 height: 100vh;
 width: 100%;
@@ -377,6 +428,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+position: relative;
+z-index: 100;
 }
 .footer-sec h1{
 color: black;
@@ -601,7 +654,8 @@ button.clear{
       margin-top: 0%;
     }
     .skills-sec{
-      height: 100vh;
+      height: 65vh;
+      width: 100%;
         
     }
     
@@ -763,5 +817,61 @@ nav {
 .calculator {
   width: 215px;
    
+}
+
+.project-sec{
+  height: 55vh;
+  width: 100%;
+  padding: 8vw 0;
+  margin-top: 40vw;
+}
+.project-sec p,h2{
+  color: white;
+  text-align: center;
+}
+.swiper {
+  width: 100%;
+  height: 20vh;
+    margin-top: 20vw;
+   
+}
+  
+.swiper-slide {
+  padding: 0 2vw;
+  text-align: center;
+  font-size: 18px;
+  background:#303099;
+  display: flex;
+   
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+   
+}
+ 
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 2vw;
+}
+.swiper-slide h2{
+  color: rgb(251, 250, 250);
+  font-size: 1vw;
+}
+.swiper-slide button{
+  height: 2.5vw;
+  width: 6vw;
+  background-color: #21A0FD;
+   color: rgb(0, 0, 0);
+   border-radius: 7px;
+   font-size: 0.9vw;
+   padding: 2px;
+   font-weight: 500;
+  margin: 0 1vw;
+  margin-top: 10px;
 }
 }
