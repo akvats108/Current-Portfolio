@@ -823,7 +823,7 @@ nav {
  
 
 .swiper {
-  width: 70%;
+  width: 80%;
   height: 70%;
  
 }
@@ -834,36 +834,33 @@ nav {
   background: #2C2C6C;
   display: flex;
   justify-content: center;
-  align-items: center;
+   align-items: center;
   border-radius: 10px;
-  
+   
 }
 .swiper-slide h2{
   font-size: 4vw;
 }
 .swiper-slide img {
   display: block;
-  width: 33vh;
+  width: 32vh;
   height: 60%;
-  object-fit: cover;
-  object-position: center;
-  margin-left: 3.4vw;
-   margin-top: 2vw;
-   border-radius: 10px;
+margin: 0%;
+    padding: 0 8.5vw;
+   border-radius: 20px;
+   padding-top: 3vw;
 }
  
 .swiper-slide button{
   background-color: #21A1FC;
   border-radius: 10px;
-  height: 8vw;
-  width: 20vw;
-  font-size: 2vw;
-  font-weight: 500;
+  height: 10vw;
+  width: 22vw;
+  font-size: 3vw;
+  font-weight: 00;
   padding: 2px 0;
+  color: white;
+    
 }
-
-
-
  
-
 }
